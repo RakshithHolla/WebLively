@@ -1,0 +1,16 @@
+temp-mail:
+weblively@nextmail.info
+
+infinity:
+mail:weblively@nextmail.info
+pass:weblively123
+
+facebook:
+mail:weblively@nextmail.info
+pass:weblively123
+
+freenoom:
+
+mail:
+mail:teamlively@weblively.ml
+pass:weblively123

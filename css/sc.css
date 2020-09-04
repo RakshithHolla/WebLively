@@ -1,0 +1,218 @@
+.UserName{
+    padding: 2%;
+    overflow: hidden;
+
+}
+.UserMail{
+    margin-left: 5%;
+    overflow: hidden;
+}
+.ListImage{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+   
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+ .ModelInput{
+     text-align:center;
+     width:95%;
+     height:50px;
+    border:none;
+    background:#F5F5F5;
+     border-radius:5px;
+     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+     margin:10px;
+     
+
+ }
+
+ ModelInput:hover{
+     background:#F5F5F5;
+     
+ }
+ .ModelButton{
+     border-radius:3px;
+     background :#fff;
+     
+     width:100px;
+     height:40px;
+     text-align:center;
+     padding:8px;
+     cursor: pointer;
+ }
+ .ModelButton:hover{
+    background:#F5F5F5;
+    cursor: pointer;
+ }
+ 
+ul::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+ul::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+ul::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #c1c1c1;
+}
+ ul{
+    width: 100%;
+    height: 400px;
+    max-height : 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+ }
+ li{
+     
+    padding:20px;
+    height:110px;
+    box-sizing: border-box;
+    border-radius:3px;
+    margin:8px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+ }
+
+body{
+    background:url(../img/build.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.txtcolor{
+    color: white;
+    
+}
+
+
+
+
+.btn1{
+    background: transparent;
+    outline: none;
+    border:none;
+    outline:none;
+
+}
+
+.btnImg:hover{
+    border-radius: 50%;
+    box-shadow:3px 3px 20px #111;
+    cursor: pointer;
+
+}
+.btnImg:active{
+    -ms-transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+    border-bottom: none;
+}
+.tt{
+    background-color: #c1c1c1;
+    
+}
+
+@media  (max-width: 576px) { 
+    .btnImg{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .padding{
+        padding-top: 20%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom: 40%;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    .btnImg{
+        width: 100px;
+        height: 100px;
+    }
+    .padding{
+        padding-top: 20%;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 40%;
+    }
+    
+    
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+    .btnImg{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+    .padding{
+        padding-top: 20%;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 20%;
+    }
+    
+    
+    
+}
+@media (min-width:  992px) and (max-width: 1199.98px) { 
+    .btnImg{
+        width: 150px;
+        height: 150px;
+       
+    }
+    .padding{
+        padding-top: 15%;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 20%;
+    }
+}
+
+@media (min-width: 1200px)  { 
+
+    .btnImg{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .padding{
+        padding-top: 10%;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 15%;
+    }
+  
+}
+
+@media only screen  and (min-width : 1824px) {
+ .btnImg{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .padding{
+        padding-top: 10%;
+        padding-left:6%;
+        padding-right:6%;
+        padding-bottom: 75%;
+    }
+}
+
